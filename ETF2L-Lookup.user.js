@@ -4,9 +4,9 @@
 // @match			*://*.steamcommunity.com/profiles/*
 // @match			*://*.logs.tf/*
 // @connect			etf2l.org
-// @namespace		https://github.com/bavmar/ETF2L-Lookup
+// @namespace       https://github.com/bavmar/ETF2L-Lookup
 // @require			https://code.jquery.com/jquery-3.6.1.min.js
-// @version			0.1
+// @version		    0.1
 // @author          Bart van Maarschalkerweerd
 // @grant			GM_getValue
 // @grant			GM_setValue
@@ -14,6 +14,7 @@
 // @grant			GM.xmlHttpRequest
 // @grant			GM.getValue
 // @grant			GM.setValue
+
 
 // ==/UserScript==
 
@@ -137,7 +138,6 @@ function makeBox(location, number = 0) {
     '" style="' +
     boxCss +
     '">' +
-    '<p> ETF2L Lookup </p>' +
     '<p>' +
     '<img src="https://raw.githubusercontent.com/bavmar/ETF2L-Lookup/main/img/etf2l.ico" style="' +
     iconStyle +
