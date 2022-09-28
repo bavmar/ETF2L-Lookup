@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name			ETF2L Lookup
+// @namespace			https://github.com/bavmar/ETF2L-Lookup
+// @author			bavmar
 // @match			*://*.steamcommunity.com/id/*
 // @match			*://*.steamcommunity.com/profiles/*
 // @match			*://*.logs.tf/*
 // @connect			etf2l.org
-// @namespace       https://github.com/bavmar/ETF2L-Lookup
 // @require			https://code.jquery.com/jquery-3.6.1.min.js
-// @version		    0.1
-// @author          Bart van Maarschalkerweerd
+// @version			0.2
 // @grant			GM_getValue
 // @grant			GM_setValue
 // @grant			GM_xmlhttpRequest
@@ -15,6 +15,7 @@
 // @grant			GM.getValue
 // @grant			GM.setValue
 
+// @updateURL		https://github.com/bavmar/ETF2L-Lookup/raw/release/Lookup.user.js	   
 
 // ==/UserScript==
 
