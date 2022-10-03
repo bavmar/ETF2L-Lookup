@@ -15,7 +15,7 @@
 // @grant			GM.getValue
 // @grant			GM.setValue
 
-// @updateURL		https://github.com/bavmar/ETF2L-Lookup/raw/release/Lookup.user.js	   
+// @updateURL		https://github.com/bavmar/ETF2L-Lookup/raw/release/ETF2L-Lookup.user.js	   
 
 // ==/UserScript==
 
