@@ -22,6 +22,13 @@
 // stop showing syntax errors for jquery
 const $ = window.jQuery;
 
+// greasemonkey compatibility
+if (typeof GM_xmlhttpRequest === "undefined" && typeof GM !== "undefined") {
+    self.GM_getValue = GM.getValue;
+    self.GM_setValue = GM.setValue;
+    self.GM_xmlhttpRequest = GM.xmlHttpRequest;
+}
+
 function toggleETF2LBox() {
     $("#tf2-ETF2L-lookup").toggle();
 }
