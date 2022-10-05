@@ -3,7 +3,7 @@
 // @namespace			https://github.com/bavmar/ETF2L-Lookup
 // @author			bavmar
 // @match			*://*.steamcommunity.com/id/*
-
+// @match			*://*.steamcommunity.com/profiles/*
 // @match			*://*.logs.tf/*
 // @connect			etf2l.org
 // @require			https://code.jquery.com/jquery-3.6.1.min.js
