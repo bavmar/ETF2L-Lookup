@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name			ETF2L Lookup
-// @namespace		https://github.com/bavmar/ETF2L-Lookup
+// @namespace		    https://github.com/bavmar/ETF2L-Lookup
 // @author			bavmar
 // @match			*://*.steamcommunity.com/id/*
 // @match			*://*.steamcommunity.com/profiles/*
