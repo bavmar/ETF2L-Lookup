@@ -27,6 +27,7 @@ if (typeof GM_xmlhttpRequest === "undefined" && typeof GM !== "undefined") {
     self.GM_getValue = GM.getValue;
     self.GM_setValue = GM.setValue;
     self.GM_xmlhttpRequest = GM.xmlHttpRequest;
+    self.GM_Extention = GM.Extention;
 }
 
 function toggleETF2LBox() {
@@ -93,7 +94,7 @@ function steamCommunity() {
     regex = new RegExp("(?:^.{4,5}://steamcommunity.com/" + pageType + "/)([^/?]+)","i");
 
     if (pageType == "id") {
-        var apiKey = "7C65DC48D67139E16E83C0CE307E9CD0";
+        var apiKey = "";
         var vanity = document.URL.match(regex)[1];
 
         GM_xmlhttpRequest({
